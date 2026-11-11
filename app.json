@@ -1,0 +1,34 @@
+{
+  "id": "meow-downloader",
+  "name": "Meow Downloader",
+  "publisher": "Gr8Meow",
+  "description": "Fast, light, free video and audio downloader for Windows (yt-dlp, aria2, FFmpeg).",
+  "version": "1.0.0",
+  "tag": "v1.0.0",
+  "repo": "Gr8Meow/Gr8Meow-Video-Downloader-updates",
+  "releasePage": "https://github.com/Gr8Meow/Gr8Meow-Video-Downloader-updates/releases/tag/v1.0.0",
+  "platform": "windows-x64",
+  "installer": {
+    "file": "MeowDownloader-Setup.exe",
+    "url": "https://github.com/Gr8Meow/Gr8Meow-Video-Downloader-updates/releases/download/v1.0.0/MeowDownloader-Setup.exe",
+    "sha256": "<filled in by the workflow>",
+    "silentArgs": "/S",
+    "perUser": true
+  },
+  "portable": {
+    "file": "MeowDownloader-windows-x64.zip",
+    "url": "https://github.com/Gr8Meow/Gr8Meow-Video-Downloader-updates/releases/download/v1.0.0/MeowDownloader-windows-x64.zip",
+    "sha256": "<filled in by the workflow>"
+  },
+  "exe": {
+    "file": "MeowDownloader.exe",
+    "url": "https://github.com/Gr8Meow/Gr8Meow-Video-Downloader-updates/releases/download/v1.0.0/MeowDownloader.exe",
+    "sha256": "<filled in by the workflow>"
+  },
+  "detect": {
+    "registry": "HKCU\\Software\\Gr8Meow\\MeowDownloader",
+    "versionValue": "Version",
+    "installDirValue": "InstallDir",
+    "exeName": "MeowDownloader.exe"
+  }
+}
